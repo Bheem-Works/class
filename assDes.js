@@ -31,3 +31,18 @@ test.manageInOdr();
 test.print(); // output : 1,2,3,4....;
 
 // It work but i want this in the number form;
+
+// jati j gare pani 7 number bhnda muni aunu paro.
+function numberCount(){
+  // The problem is = i want a value greater then the one; 
+    let randNum = Math.random(Math.floor()); 
+    if(randNum < 1) {
+      console.log('sorry miss');
+    }
+    console.log(randNum); // random ouptput;
+    if(randNum < 7 ) {
+        console.log('yes it is small then the 7');
+        console.log(randNum); // kun number le kteko vanera tha pauna; 
+    }
+}
+numberCount(); // let's see the output; 
