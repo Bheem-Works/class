@@ -33,7 +33,7 @@ class Stack {
     if (this.size === 0) return null;
     const poppedNode = this.top;
     console.log("poppedNodeValue", poppedNode);
-    this.top = this.top.next; // what about the ,next???
+    this.top = this.top.next;
     this.size--;
     return poppedNode.val;
   }
